@@ -4,15 +4,15 @@ import { XmlIterator } from './iterators/XmlIterator';
 
 console.log('--- CSV ---');
 for (const user of new CsvIterator('./dist/users.csv')) {
-    console.log(user);
+  console.log(user);
 }
 
 console.log('--- JSON ---');
 for (const user of new JsonIterator('./dist/users.json')) {
-    console.log(user);
+  console.log(user);
 }
 
 console.log('--- XML ---');
 for (const user of new XmlIterator('./dist/users.xml')) {
-    console.log(user);
-} 
+  console.log(user);
+}
